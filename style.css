@@ -1,0 +1,38 @@
+.cover {
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 280px;
+	-webkit-filter: drop-shadow(0px 0px 5px #000)
+}
+
+.info {
+	position: absolute;
+	top: 20px;
+	left:400px;
+	padding: 100px;
+}
+
+.label {
+	position: absolute;
+	top: 480px;
+	left: 560px;
+	color: white;
+	font-size: 30px;	
+}
+
+.sublabel {
+	position: absolute;
+	top: 485px;
+	left: 590px;
+	color: white;
+	font-size: 20px;
+}
+
+.word {
+	text-align: left;
+	font-family: Verdana;
+	color: black;
+	margin-top: 0px;
+	margin-left: 390px;
+}
