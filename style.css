@@ -1,9 +1,49 @@
+.jumbotron {
+	padding: 200px 100px;
+	background-color: grey;
+	color: white;
+}
+
+.bg {
+	background-image: url("bg.png");
+	width: 100%;
+	background-size: cover;
+	-webkit-filter: drop-shadow(0px 0px 5px #000);
+}
+
+
+.container-fluid {
+	padding: 60px 100px;
+	background-color: white;
+}
+
 .cover {
 	position: relative;
 	display: inline-block;
 	margin-top: 20px;
 	margin-right: 280px;
-	-webkit-filter: drop-shadow(0px 0px 5px #000)
+	-webkit-filter: drop-shadow(0px 0px 5px #000);
+}
+
+.jk {
+	background-color: #2F4255;
+	padding: 100px 100px;
+	background-size: cover;
+	color: white;
+}
+
+.gd {
+	background-color: #7DA9D1;
+	padding:30px;
+	color: white;
+}
+
+.carousel-inner {
+	border-radius: 5px;
+}
+
+.carousel-caption {
+	-webkit-filter: drop-shadow(0px 0px 5px #000);
 }
 
 .info {

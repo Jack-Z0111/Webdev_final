@@ -1,0 +1,425 @@
+html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.navbar {
+	position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent
+    opacity: 1;
+}
+
+.navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    opacity: 1;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+    opacity: 1;
+}
+
+.overall-navbar {
+    box-shadow: 0 5px 10px #23292f;
+    background-color: #fafafa;
+}
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: grey;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-header {
+    margin-right: 15px;
+    margin-left: -15px;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 20px;
+    padding: 10px
+    margin-top:-10px;
+    line-height: 5px;
+}
+
+.navbar-item {
+	list-style: none;
+	opacity: 1;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+.navbar-subtitle {
+	font-size: 16px;
+	padding: 16px;
+	color: black;
+	opacity:1;
+}
+
+.cative {
+	text-align: left;
+	float: left;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: grey;
+  padding: 16px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 16px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a:link { 
+	text-decoration: none;
+	color: grey
+}
+
+a:active { 
+	text-decoration: none;
+	color: grey
+}
+　　 
+a:hover { 
+	text-decoration: none;
+	color: grey;
+	opacity: 70%;
+	scale: (1.1);
+}
+　　
+a:visited { 
+	text-decoration: none;
+	color:grey;
+}
+
+.this {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+h1 {
+	position: relative;
+	text-align: left;
+	margin-left: 150px;
+	font-size: 30px;
+    font-family: sans-serif;
+}
+
+h3 {
+	color: #6EA4FF;
+}
+
+
+.cover {
+	position: relative;
+	display: inline-block;
+	margin-right: 360px;
+	-webkit-filter: drop-shadow(0px 0px 5px #000)
+}
+
+.info {
+	position: absolute;
+	top: 100px;
+	left:400px;
+	padding: 100px;
+}
+
+.word {
+	text-align: left;
+	font-family: Verdana;
+	color: black;
+	margin-top: 150px;
+	margin-left: 390px;
+}
+
+.like {
+	position: absolute;
+	margin-top: -360px;
+	margin-left: 430px
+}
+
+.like2 {
+    position: absolute;
+	margin-top: -130px;
+	margin-left: 400px
+}
+
+.like3 {
+    position: absolute;
+	margin-top: -130px;
+	margin-left: -70px
+}
+
+.like .like2 .like3: hover {
+	display: block;
+	background-image: url('image/heart_empty.png');
+}
+
+.label {
+	position: absolute;
+	top: 440px;
+	left: 560px;
+	color: white;
+	font-size: 30px;	
+}
+
+.sublabel {
+	position: absolute;
+	top: 485px;
+	left: 590px;
+	color: white;
+	font-size: 20px;
+}
+
+.item {
+	display: inline;
+	float: left;
+}
+
+.itemb {
+	display: inline;
+	max-width: 1000px;
+}
+
+
+.pad {
+	padding-color: #53A1FF
+
+}
+
+.color-word {
+	color:grey;
+}
+
+.subitem {
+	margin: 5px;
+	-webkit-filter: drop-shadow(0px 0px 4px #000)
+}
+
+.secondary {
+	position: relative;
+	margin-top: 100px;
+
+}
+
+.third {
+	position: relative;
+	margin-top: 10px;
+}
+
+.secitem {
+	margin: 8.5px;
+	-webkit-filter: drop-shadow(0px 0px 4px #000)
+}
+
+.thitem {
+	margin: 8.5px;
+	border-radius: 10px;
+}
+
+.secone {
+	text-align: left;
+	margin-left: 300px;
+}
+
+.sectwo {
+	text-align: left;
+	margin-left: 780px;
+	margin-top:-136px;
+}
+
+
+.post {
+	-webkit-filter: brightness(0.6);
+}
+
+.boarder {
+	border-radius: 0px 50px;
+}
+
+.feature {
+	position: absolute;
+	font-size: 40px;
+	font-family: Helvetica;
+	color: white;
+	margin-top: -340px;
+	margin-left: 560px;
+	z-index: 1000px;
+	-webkit-filter: drop-shadow(0px 3px 3px #000);
+}
+
+.small {
+	font-size: 20px;
+	position: absolute;
+	font-family: Helvetica;
+	color: white;
+	margin-top: -250px;
+	margin-left: 595px;
+	z-index: 1000px;
+	-webkit-filter: drop-shadow(0px 3px 3px #000);
+}
+
+.scroll {
+	-webkit-filter: drop-shadow(0px 3px 3px #000);
+	padding-top: 160px;
+}
+
+.title-branch {
+	z-index: 100px;
+	color: white;
+	font-size: 50px;
+	font-family: Verdana;
+	padding-top: 270px;
+	-webkit-filter: drop-shadow(0px 3px 3px #000)
+}
+
+.title-author {
+	color: white;
+	font-size: 25px;
+	-webkit-filter: drop-shadow(0px 3px 3px #000)
+}
+
+.title-genre {
+	z-index: 100px;
+	color: white;
+	font-size: 50px;
+	font-family: Verdana;
+	padding-top: 240px;
+	-webkit-filter: drop-shadow(0px 3px 3px #000)
+}
+
+.title-intro {
+	color: white;
+	font-size: 25px;
+	-webkit-filter: drop-shadow(0px 3px 3px #000)
+}
+.title-cover {
+	float: left;
+	position: absolute;
+	margin-top: -20px;
+	margin-left: 300px;
+	-webkit-filter: drop-shadow(0px 0px 5px #000)
+}
+
+.intro {
+	font-family: Verdana;
+	position:absolute;
+	text-align: left;
+	margin-top: 200px;
+	margin-left: 1060px;
+	padding:0;
+}
+
+.video {
+	margin-right: 200px;
+}
+
+.para {
+	text-align: justify;
+	max-width: 780px;
+	font-size: 16px;
+	font-family: Verdana;
+}
+
+.back {
+	background-size: 960px;
+	border-radius: 20px;
+}
+
+.feat {
+	text-align: left;
+	padding-top: 360px;
+	padding-left: 30px;
+	font-size: 40px;
+	font-family: Verdana;
+	color: white;
+	-webkit-filter: drop-shadow(0px 0px 5px #000)
+}
+
+.feat-author {
+	text-align: left;
+	padding-left: 30px;
+	padding-top:-20px;
+	font-size: 24px;
+	font-family: Verdana;
+	color: white;
+	-webkit-filter: drop-shadow(0px 0px 5px #000)
+}
